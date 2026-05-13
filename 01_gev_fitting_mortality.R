@@ -5,7 +5,7 @@
 library(extRemes)
 
 # ---------------------------------------------------------
-# Configuration for an Example (One simulation out of 1000)
+# Configuration for an Example (Two simulations out of 1000)
 # ---------------------------------------------------------
 
 set.seed(123)
@@ -19,7 +19,7 @@ vYEA <- YEA1_GEV:YEA2_GEV
 iYEA1_GEV <- 1
 iYEA2_GEV <- nYEA_GEV
 
-nSIM <- 1
+nSIM <- 2
 
 # ---------------------------------------------------------
 # Load data
